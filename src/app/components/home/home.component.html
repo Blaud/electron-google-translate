@@ -1,0 +1,12 @@
+
+<h1>Введите текст для перевода:</h1>
+<br>
+<input
+  id="input_text"
+  type="text"
+  (keyup)="textInput($event)"
+  #textToTranslate
+  style="display: block"
+>
+<br>
+<label id="translated" style="display: block;">{{translated}}</label>
